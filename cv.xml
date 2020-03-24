@@ -4,15 +4,17 @@ href="transformation.xsl"?>
 <CurriculumVitae>
  
     <Informations>
-        <Name>NAIT HAMMOU</Name>
+        <Nom>NAIT HAMMOU</Nom>
+        <Age>21 ans</Age>
+        <Adresse>11 Rue 28 Benjdia, 20120 Casablanca</Adresse>
         <FirstName>Mehdi</FirstName>
-        <Description>Élève ingénieur en 2ème année à l’Ecole Nationale Supérieure d’Informatique et d’Analyse des Systèmes (ENSIAS), option ingénieurie des systèmes embarqués et mobiles (ISEM), à la recherche d’un stage d’été à partir de Juin 2020</Description>
+        <Description>Élève ingénieur en systèmes embarqués</Description>
         <Email>mehdi.nait.hammou1@gmail.com</Email>
         <Phone>+212 708173933</Phone>
         <Linkedin>linkedin.com/in/mehdi-nait-hammou</Linkedin>
         <Github>github.com/mehdi-nait</Github> 
     </Informations>
-    <Education>
+    <Formation>
         <Educ>
             <Name>Cycle Ingénieur</Name>
             <Description>Ingénieurie des Systèmes embarqués et mobiles à l'ENSIAS</Description>
@@ -31,8 +33,8 @@ href="transformation.xsl"?>
             <StartDate>sep 2015</StartDate>
             <EndDate>Juin 2016</EndDate>
         </Educ>
-    </Education>
-    <ExperiencePro>
+    </Formation>
+    <Expériences_professionnelles>
         <Exp>
             <Name>Stage de découverte</Name>
             <Description>Stage de découverte au sein de la Marocaine des Fonderies</Description>
@@ -47,34 +49,16 @@ href="transformation.xsl"?>
             <StartDate>Juillet 2019</StartDate>
             <EndDate>Août 2019</EndDate>
         </Exp>
-    </ExperiencePro>
-    <Projets>
-        <Proj>
-            <Name>Réalisation d'un Compilateur du langage R</Name>
-            <Outils>Langage C</Outils>
-        </Proj>
-        <Proj>
-            <Name>Système de reconaissance faciale</Name>
-            <Outils>Python,OpenCV,Keras, Google Colab</Outils>
-        </Proj>
-        <Proj>
-            <Name>Système de reconaissance du langage des signes</Name>
-            <Outils>Python,OpenCV, Google Colab</Outils>
-        </Proj>
-        <Proj>
-            <Name>Feu Rouge Intelligent</Name>
-            <Outils>Microcôntrolleur AVR </Outils>
-        </Proj>
-        <Proj>
-            <Name>Etude de la viabilité financière d'un système de gestion d'accès</Name>
-            <Outils>RasberryPie, Python, OpenCV, Keras</Outils>
-        </Proj>
-    </Projets>
-    <Skills>
-        <ProgrammingLanguages>C,Python,Java,R,VHDL</ProgrammingLanguages>
-        <Compétances>Machine Learning(Computer Vision),SQL/PLSQL,Merise,UML2,Latex</Compétances>
-        <Languages>Français,Anglais,Arabe</Languages>
-    </Skills>
+    </Expériences_professionnelles>
+
+    <Compétances>
+        <méthodes></méthodes>
+        <Langages_de_programmation></Langages_de_programmation>
+        <IDE></IDE>
+        <Electronique_et_telecom></Electronique_et_telecom>
+        <gestion_de_version></gestion_de_version>
+    </Compétances>
+
     <ExtraCurricularActivities>
         <activitie>
             <Name>Résponsable de la Cellule culturelle des Olympiades ENSIAS dans leurs 6ème édition</Name>

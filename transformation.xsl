@@ -42,7 +42,7 @@
         <br /><b>Description:</b><xsl:value-of select="Description"></xsl:value-of>
         <br /><b>Debut:</b><xsl:value-of select="StartDate"></xsl:value-of>
         <br /><b>Fin:</b><xsl:value-of select="EndDate"></xsl:value-of>
-        
+        <br/><br/>
         </xsl:for-each>
         </p>
 
