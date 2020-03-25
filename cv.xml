@@ -1,74 +1,97 @@
 <?xml version = "1.0"?>
 <?xml-stylesheet type="text/xsl" 
 href="transformation.xsl"?>
+<!DOCTYPE CurriculumVitae SYSTEM "cv_mehdinait.dtd">
 <CurriculumVitae>
  
     <Informations>
         <Nom>NAIT HAMMOU</Nom>
         <Age>21 ans</Age>
         <Adresse>11 Rue 28 Benjdia, 20120 Casablanca</Adresse>
-        <FirstName>Mehdi</FirstName>
         <Description>Élève ingénieur en systèmes embarqués</Description>
         <Email>mehdi.nait.hammou1@gmail.com</Email>
-        <Phone>+212 708173933</Phone>
+        <Tél>+212 708173933</Tél>
         <Linkedin>linkedin.com/in/mehdi-nait-hammou</Linkedin>
         <Github>github.com/mehdi-nait</Github> 
     </Informations>
+
     <Formation>
         <Educ>
-            <Name>Cycle Ingénieur</Name>
+            <Nom>Cycle Ingénieur</Nom>
             <Description>Ingénieurie des Systèmes embarqués et mobiles à l'ENSIAS</Description>
-            <StartDate>sep 2018</StartDate>
-            <EndDate>Juin 2021</EndDate>
+            <Début>sep 2018</Début>
+            <Fin>Juin 2021</Fin>
         </Educ>
         <Educ>
-            <Name>Classes préparatoires aux grandes écoles d'ingénieurs</Name>
+            <Nom>Classes préparatoires aux grandes écoles d'ingénieurs</Nom>
             <Description>Option Physique et sciences d'ingénieur au Lycée Mohamed V de Casablanca</Description>
-            <StartDate>sep 2016</StartDate>
-            <EndDate>mai 2018</EndDate>
+            <Début>sep 2016</Début>
+            <Fin>mai 2018</Fin>
         </Educ>
         <Educ>
-            <Name>Baccalauréat Scientifique Mention Bien</Name>
+            <Nom>Baccalauréat Scientifique Mention Bien</Nom>
             <Description>Sciences Mathématiques au lycée Mohamed V de Casablanca</Description>
-            <StartDate>sep 2015</StartDate>
-            <EndDate>Juin 2016</EndDate>
+            <Début>sep 2015</Début>
+            <Fin>Juin 2016</Fin>
         </Educ>
     </Formation>
+
     <Expériences_professionnelles>
         <Exp>
-            <Name>Stage de découverte</Name>
+            <Nom>Stage de découverte</Nom>
             <Description>Stage de découverte au sein de la Marocaine des Fonderies</Description>
             <Projet>Implémentation d'un outil de gestion du parc informatique du groupe</Projet>
-            <StartDate>Juillet 2019</StartDate>
-            <EndDate>Août 2019</EndDate>
+            <Début>Juillet 2019</Début>
+            <Fin>Août 2019</Fin>
         </Exp>
         <Exp>
-            <Name>Chargé de Clientèle</Name>
+            <Nom>Chargé de Clientèle</Nom>
             <Description>COMDATA Maroc (ex B2S)</Description>
             <Projet>Conseiller au sein du service suivi de souscription au compte de Direct Energie</Projet>
-            <StartDate>Juillet 2019</StartDate>
-            <EndDate>Août 2019</EndDate>
+            <Début>Juillet 2019</Début>
+            <Fin>Août 2019</Fin>
         </Exp>
     </Expériences_professionnelles>
 
+    <Projets>
+        <Proj>
+            <Nom>Réalisation d'un Compilateur du langage R</Nom>
+            <Outils>Langage C</Outils>
+        </Proj>
+        <Proj>
+            <Nom>Système de reconaissance faciale</Nom>
+            <Outils>Python,OpenCV,Keras, Google Colab</Outils>
+        </Proj>
+        <Proj>
+            <Nom>Système de reconaissance du langage des signes</Nom>
+            <Outils>Python,OpenCV, Google Colab</Outils>
+        </Proj>
+        <Proj>
+            <Nom>Feu Rouge Intelligent</Nom>
+            <Outils>Microcôntrolleur AVR </Outils>
+        </Proj>
+        <Proj>
+            <Nom>Etude de la viabilité financière d'un système de gestion d'accès</Nom>
+            <Outils>RasberryPie, Python, OpenCV, Keras</Outils>
+        </Proj>
+    </Projets>
+
     <Compétances>
-        <méthodes></méthodes>
-        <Langages_de_programmation></Langages_de_programmation>
-        <IDE></IDE>
-        <Electronique_et_telecom></Electronique_et_telecom>
-        <gestion_de_version></gestion_de_version>
+        <ProgrammingLanguages>C,Python,Java,R,VHDL</ProgrammingLanguages>
+        <Connaissances>Machine Learning(Computer Vision),SQL/PLSQL,Merise,UML2,Latex</Connaissances>
+        <Languages>Français,Anglais,Arabe</Languages>
     </Compétances>
 
-    <ExtraCurricularActivities>
-        <activitie>
-            <Name>Résponsable de la Cellule culturelle des Olympiades ENSIAS dans leurs 6ème édition</Name>
-        </activitie>
-        <activitie>
-            <Name>Membre de la cellule culturelle des Olympiades ENSIAS dans leurs 5ème édition</Name>
-        </activitie>
-        <activitie>
-            <Name>Membre de la cellule Design du Club Japonais ENSIAS</Name>
-        </activitie>
-    </ExtraCurricularActivities>
+    <Activités_Parascolaires>
+        <activité>
+            <Nom>Résponsable de la Cellule culturelle des Olympiades ENSIAS dans leurs 6ème édition</Nom>
+        </activité>
+        <activité>
+            <Nom>Membre de la cellule culturelle des Olympiades ENSIAS dans leurs 5ème édition</Nom>
+        </activité>
+        <activité>
+            <Nom>Membre de la cellule Design du Club Japonais ENSIAS</Nom>
+        </activité>
+    </Activités_Parascolaires>
 
 </CurriculumVitae>
