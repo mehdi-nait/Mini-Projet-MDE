@@ -34,7 +34,7 @@
 
 
         <h2 align="Center" style="color:steelblue;"><i>Formation</i> </h2>
-        <hr/>
+        <hr></hr>
         </xsl:for-each>
         <p class="ex1">
         <xsl:for-each select="CurriculumVitae/Education/Educ">

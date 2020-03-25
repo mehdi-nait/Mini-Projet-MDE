@@ -1,0 +1,97 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type="text/xsl" 
+href="cv_mehdinait.xsl"?>
+<!DOCTYPE CurriculumVitae SYSTEM "cv_mehdinait.dtd">
+<CurriculumVitae>
+ 
+    <Informations>
+        <Nom>NAIT HAMMOU Mehdi</Nom>
+        <Age>21 ans</Age>
+        <Adresse>11 Rue 28 Benjdia, 20120 Casablanca</Adresse>
+        <Description>Élève ingénieur en systèmes embarqués</Description>
+        <Email>mehdi.nait.hammou1@gmail.com</Email>
+        <Tél>+212 708173933</Tél>
+        <Linkedin>linkedin.com/in/mehdi-nait-hammou</Linkedin>
+        <Github>github.com/mehdi-nait</Github> 
+    </Informations>
+
+    <Formation>
+        <Educ>
+            <Nom>Cycle Ingénieur</Nom>
+            <Description>Ingénieurie des Systèmes embarqués et mobiles à l'ENSIAS</Description>
+            <Début>sep 2018</Début>
+            <Fin>Juin 2021</Fin>
+        </Educ>
+        <Educ>
+            <Nom>Classes préparatoires aux grandes écoles d'ingénieurs</Nom>
+            <Description>Option Physique et sciences d'ingénieur au Lycée Mohamed V de Casablanca</Description>
+            <Début>sep 2016</Début>
+            <Fin>mai 2018</Fin>
+        </Educ>
+        <Educ>
+            <Nom>Baccalauréat Scientifique Mention Bien</Nom>
+            <Description>Sciences Mathématiques au lycée Mohamed V de Casablanca</Description>
+            <Début>sep 2015</Début>
+            <Fin>Juin 2016</Fin>
+        </Educ>
+    </Formation>
+
+    <Expériences_professionnelles>
+        <Exp>
+            <Nom>Stage de découverte</Nom>
+            <Description>Stage de découverte au sein de la Marocaine des Fonderies</Description>
+            <Projet>Implémentation d'un outil de gestion du parc informatique du groupe</Projet>
+            <Début>Juillet 2019</Début>
+            <Fin>Août 2019</Fin>
+        </Exp>
+        <Exp>
+            <Nom>Chargé de Clientèle</Nom>
+            <Description>COMDATA Maroc (ex B2S)</Description>
+            <Projet>Conseiller au sein du service suivi de souscription au compte de Direct Energie</Projet>
+            <Début>Juillet 2019</Début>
+            <Fin>Août 2019</Fin>
+        </Exp>
+    </Expériences_professionnelles>
+
+    <Projets>
+        <Proj>
+            <Nom>Réalisation d'un Compilateur du langage R</Nom>
+            <Outils>Langage C</Outils>
+        </Proj>
+        <Proj>
+            <Nom>Système de reconaissance faciale</Nom>
+            <Outils>Python,OpenCV,Keras, Google Colab</Outils>
+        </Proj>
+        <Proj>
+            <Nom>Système de reconaissance du langage des signes</Nom>
+            <Outils>Python,OpenCV, Google Colab</Outils>
+        </Proj>
+        <Proj>
+            <Nom>Feu Rouge Intelligent</Nom>
+            <Outils>Microcôntrolleur AVR </Outils>
+        </Proj>
+        <Proj>
+            <Nom>Etude de la viabilité financière d'un système de gestion d'accès</Nom>
+            <Outils>RasberryPie, Python, OpenCV, Keras</Outils>
+        </Proj>
+    </Projets>
+
+    <Compétances>
+        <ProgrammingLanguages>C,Python,Java,R,VHDL</ProgrammingLanguages>
+        <Connaissances>Machine Learning(Computer Vision),SQL/PLSQL,Merise,UML2,Latex</Connaissances>
+        <Languages>Français,Anglais,Arabe</Languages>
+    </Compétances>
+
+    <Activités_Parascolaires>
+        <activité>
+            <Nom>Résponsable de la Cellule culturelle des Olympiades ENSIAS dans leurs 6ème édition</Nom>
+        </activité>
+        <activité>
+            <Nom>Membre de la cellule culturelle des Olympiades ENSIAS dans leurs 5ème édition</Nom>
+        </activité>
+        <activité>
+            <Nom>Membre de la cellule Design du Club Japonais ENSIAS</Nom>
+        </activité>
+    </Activités_Parascolaires>
+
+</CurriculumVitae>
