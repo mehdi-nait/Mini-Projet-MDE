@@ -18,20 +18,20 @@ href="cv_mehdinait.xsl"?>
     <Formation>
         <Educ>
             <Nom>Cycle Ingénieur</Nom>
-            <Description>Ingénieurie des Systèmes embarqués et mobiles à l'ENSIAS</Description>
-            <Début>sep 2018</Début>
+            <Description>Ingénieurie des Systèmes embarqués et mobiles à l'ENSIAS. Université Mohamed V</Description>
+            <Début>septembre 2018</Début>
             <Fin>Juin 2021</Fin>
         </Educ>
         <Educ>
             <Nom>Classes préparatoires aux grandes écoles d'ingénieurs</Nom>
-            <Description>Option Physique et sciences d'ingénieur au Lycée Mohamed V de Casablanca</Description>
-            <Début>sep 2016</Début>
-            <Fin>mai 2018</Fin>
+            <Description>Classes préparatoires aux grandes écoles d'ingénieurs Option Physique et sciences d'ingénieur,Lycée Mohamed V, Casablanca</Description>
+            <Début>Septembre 2016</Début>
+            <Fin>Mai 2018</Fin>
         </Educ>
         <Educ>
             <Nom>Baccalauréat Scientifique Mention Bien</Nom>
-            <Description>Sciences Mathématiques au lycée Mohamed V de Casablanca</Description>
-            <Début>sep 2015</Début>
+            <Description>Baccalauréat Scientifique option Sciences Mathématiques B, Lycée Mohamed V, Casablanca</Description>
+            <Début>Septembre 2015</Début>
             <Fin>Juin 2016</Fin>
         </Educ>
     </Formation>
@@ -40,14 +40,14 @@ href="cv_mehdinait.xsl"?>
         <Exp>
             <Nom>Stage de découverte</Nom>
             <Description>Stage de découverte au sein de la Marocaine des Fonderies</Description>
-            <Projet>Implémentation d'un outil de gestion du parc informatique du groupe</Projet>
+            <Tâche>Implémentation d'un outil de gestion du parc informatique du groupe</Tâche>
             <Début>Juillet 2019</Début>
             <Fin>Août 2019</Fin>
         </Exp>
         <Exp>
             <Nom>Chargé de Clientèle</Nom>
             <Description>COMDATA Maroc (ex B2S)</Description>
-            <Projet>Conseiller au sein du service suivi de souscription au compte de Direct Energie</Projet>
+            <Tâche>Conseiller au sein du service suivi de souscription au compte de Direct Energie</Tâche>
             <Début>Juillet 2019</Début>
             <Fin>Août 2019</Fin>
         </Exp>

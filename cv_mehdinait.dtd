@@ -8,7 +8,7 @@
 <!ELEMENT Compétances (ProgrammingLanguages,Connaissances,Languages)>
 <!ELEMENT Activités_Parascolaires (activité+)>
 <!ELEMENT Educ (Nom,Description,Début,Fin)>
-<!ELEMENT Exp (Nom,Description,Projet,Début,Fin)>
+<!ELEMENT Exp (Nom,Description,Tâche,Début,Fin)>
 <!ELEMENT Proj (Nom,Outils)>
 <!ELEMENT activité (Nom)>
 <!ELEMENT Nom (#PCDATA)>
@@ -23,7 +23,7 @@
 <!ELEMENT ProgrammingLanguages (#PCDATA)>
 <!ELEMENT Connaissances (#PCDATA)>
 <!ELEMENT Languages (#PCDATA)>
-<!ELEMENT Projet (#PCDATA)>
+<!ELEMENT Tâche (#PCDATA)>
 <!ELEMENT Début (#PCDATA)>
 <!ELEMENT Fin (#PCDATA)>
 <!ELEMENT Outils (#PCDATA)>
