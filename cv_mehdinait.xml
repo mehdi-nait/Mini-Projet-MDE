@@ -39,7 +39,7 @@ href="cv_mehdinait.xsl"?>
     <Expériences_professionnelles>
         <Exp>
             <Nom>Stage de découverte</Nom>
-            <Description>Stage de découverte au sein de la Marocaine des Fonderies</Description>
+            <Description>la Marocaine des Fonderies(MAFODER)</Description>
             <Tâche>Implémentation d'un outil de gestion du parc informatique du groupe</Tâche>
             <Début>Juillet 2019</Début>
             <Fin>Août 2019</Fin>
@@ -84,10 +84,10 @@ href="cv_mehdinait.xsl"?>
 
     <Activités_Parascolaires>
         <activité>
-            <Nom>Résponsable de la Cellule culturelle des Olympiades ENSIAS dans leurs 6ème édition</Nom>
+            <Nom>Résponsable de la Cellule culturelle des Olympiades ENSIAS V6.0</Nom>
         </activité>
         <activité>
-            <Nom>Membre de la cellule culturelle des Olympiades ENSIAS dans leurs 5ème édition</Nom>
+            <Nom>Membre de la cellule culturelle des Olympiades ENSIAS V5.0</Nom>
         </activité>
         <activité>
             <Nom>Membre de la cellule Design du Club Japonais ENSIAS</Nom>

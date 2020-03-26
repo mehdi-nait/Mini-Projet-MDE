@@ -58,11 +58,55 @@
             <xsl:for-each select="CurriculumVitae/Expériences_professionnelles/Exp">
             <font size="6.5" ><b><xsl:value-of select="Début"></xsl:value-of>-</b>
             <b><xsl:value-of select="Fin"></xsl:value-of></b></font>
-            <font size="5" style="margin-left:2.5em"><xsl:value-of select="Nom"></xsl:value-of> </font>
+            <font size="6.5" style="margin-left:2.5em"><xsl:value-of select="Nom"></xsl:value-of> </font>
             <br/>
-            <font size="5" style="margin-left:15.5em">rr</font>
+            
+            <ul>
+                <li size="16" style="margin-left:22em" ><big><b>Lieu:</b></big><font size="4" style="margin-left:5.5em"><xsl:value-of select="Description"></xsl:value-of> </font></li>
+                <li size="16" style="margin-left:22em" ><big><b>Date:</b></big><font size="4" style="margin-left:5.5em"><xsl:value-of select="Début"></xsl:value-of>-</font><font size="4" ><xsl:value-of select="Début"></xsl:value-of></font></li>
+                <li size="16" style="margin-left:22em" ><big><b>Description:</b></big><font size="4" style="margin-left:2.5em"><xsl:value-of select="Tâche"></xsl:value-of> </font></li>
+            </ul>
+  
              <br/><br/>   
             </xsl:for-each>
+        </section>
+
+        <section>
+            <br /><b><font size="12" style="color:steelblue;">Projets Réalisés</font></b>
+            <hr  width="100%" color="black"/>
+            <br/>
+            <xsl:for-each select="CurriculumVitae/Projets/Proj">
+                <ul>
+                    <li ><b>Description:</b><font size="4" style="margin-left:2.5em"><xsl:value-of select="Nom"></xsl:value-of></font> 
+                        <br/>
+                        <b>Outils :</b><font size="3.5" style="margin-left:5em"><xsl:value-of select="Outils"></xsl:value-of></font></li>
+                    
+                </ul>
+            </xsl:for-each>
+            <br/><br/>
+        </section>
+        
+        <section>
+            <b><font size="12" style="color:steelblue;">Compétances</font></b>
+            <hr  width="100%" color="black"/>
+            <br/>
+            <ul>
+                <li ><font size="5"><b>Langages de Programmation:</b><font style="margin-left:2.5em"><xsl:value-of select="CurriculumVitae/Compétances/ProgrammingLanguages"></xsl:value-of></font></font></li><br/>
+                <li ><font size="5"><b>Méthodes:</b><font style="margin-left:10.5em"><xsl:value-of select="CurriculumVitae/Compétances/Connaissances"></xsl:value-of></font></font></li><br/>
+                <li ><font size="5"><b>Langues:</b><font style="margin-left:11em"><xsl:value-of select="CurriculumVitae/Compétances/Languages"></xsl:value-of></font></font></li><br/>
+            </ul>
+            <br/>
+        </section>
+        
+        <section>
+            <b><font size="12" style="color:steelblue;">Activités Parascolaires</font></b>
+            <hr  width="100%" color="black"/>
+            <br/>
+            <ul>
+                <xsl:for-each select="CurriculumVitae/Activités_Parascolaires/activité">
+                    <li><font size="5"><xsl:value-of select="Nom"></xsl:value-of></font></li><br/>
+                </xsl:for-each>
+            </ul>
         </section>
     </body>
 
